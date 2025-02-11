@@ -1,0 +1,14 @@
+.a {
+  border: #111111 solid 5px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+.a:hover {
+  transition: 1s;
+  background: #000000;
+  color: #ffffff;
+}

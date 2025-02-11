@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.ts",
+    "test": "vitest --coverage",
+    "start": "ts-node server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/supertest": "^6.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.4",
+    "nodemon": "^3.1.7"
+  }
+}

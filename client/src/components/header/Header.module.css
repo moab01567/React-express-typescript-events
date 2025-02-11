@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fffcfc;
+  background: #000000ff;
+}
+
+.navInput {
+  margin: 10px;
+  background: black;
+  border: 5px solid white;
+  padding: 10px;
+  color: white;
+}
+.navInput:hover {
+  cursor: pointer;
+  transition: 1.5s;
+  margin: 10px;
+  background: white;
+  border: 5px solid black;
+  padding: 13px;
+  color: black;
+}
+
+.navInputClicked {
+  transition: 1.5s;
+  margin: 10px;
+  background: white;
+  border: 5px solid white;
+  padding: 13px;
+  color: black;
+}

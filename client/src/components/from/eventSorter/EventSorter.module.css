@@ -1,0 +1,21 @@
+.div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.divAllItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divItems {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}

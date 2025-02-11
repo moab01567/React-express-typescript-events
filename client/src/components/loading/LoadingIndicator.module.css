@@ -1,0 +1,16 @@
+.div {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 5px #000000ff dotted;
+  animation: loadingAni infinite 3s linear;
+}
+
+@keyframes loadingAni {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
