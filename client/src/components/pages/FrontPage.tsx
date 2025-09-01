@@ -12,7 +12,7 @@ export function FrontPage() {
   return (
     <div className={styleHomePage.holePageDiv}>
       <header className={styleHomePage.header}>
-        <h1>Event Creator (eksamen)</h1>
+        <h1>Event Creator ()</h1>
       </header>
       <div className={styleHomePage.loginDiv}>
         <LoginButton
